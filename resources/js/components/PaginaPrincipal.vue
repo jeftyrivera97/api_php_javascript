@@ -62,13 +62,15 @@ import { useRouter } from 'vue-router'
 export default {
   setup() {
     const records= ref([])
-    const generateOrder= async () => {
-    let response = await axios.post('api/orders/recipes/create')
-        .then(response => {
-            records.value.push(response.data);
-            console.log(records.value)
-    })
+
+    const generateOrder= async  () => {
+    let recipe = await axios.post('api/orders/recipes/create')
+        .then(recipe => {
+            console.log(recipe);
+            records.value.push(recipe.data);
+       })
     }
+
     return {
         generateOrder,
         records

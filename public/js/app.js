@@ -24977,19 +24977,19 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
     var generateOrder = /*#__PURE__*/function () {
       var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
-        var response;
+        var recipe;
         return _regeneratorRuntime().wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
                 _context.next = 2;
-                return axios__WEBPACK_IMPORTED_MODULE_1___default().post('api/orders/recipes/create').then(function (response) {
-                  records.value.push(response.data);
-                  console.log(records.value);
+                return axios__WEBPACK_IMPORTED_MODULE_1___default().post('api/orders/recipes/create').then(function (recipe) {
+                  console.log(recipe);
+                  records.value.push(recipe.data);
                 });
 
               case 2:
-                response = _context.sent;
+                recipe = _context.sent;
 
               case 3:
               case "end":
