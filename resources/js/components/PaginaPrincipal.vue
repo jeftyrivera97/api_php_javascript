@@ -1,12 +1,12 @@
 
 <template>
-    <p>Bienvenido al Sistema de Jornada de Almuerzo Gratis!</p>
+    <p>API Food Orders</p>
       <br>
      <button class="inline-flex items-center px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-gray-800 rounded-md border border-transparent ring-gray-300 transition duration-150 ease-in-out hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring disabled:opacity-25"
-     @click="generateOrder" >Generar Orden</button>
+     @click="generateOrder" >New Order</button>
      <br>
      <br>
-      <span v-if="records.length">Ordenes Generadas</span>
+      <span v-if="records.length">Recent Orders</span>
        <table v-if="records.length" class="min-w-full divide-y divide-gray-200 border">
             <thead>
             <tr>
@@ -14,16 +14,16 @@
                     <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Id</span>
                 </th>
                 <th class="px-6 py-3 bg-gray-50 text-left">
-                    <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Receta</span>
+                    <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Recipe</span>
                 </th>
                 <th class="px-6 py-3 bg-gray-50 text-left">
-                    <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Estado</span>
+                    <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Status</span>
                 </th>
                 <th class="px-6 py-3 bg-gray-50 text-left">
-                    <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Creacion</span>
+                    <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Created</span>
                 </th>
                 <th class="px-6 py-3 bg-gray-50 text-left">
-                    <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Ultima Actualizacion</span>
+                    <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Last Updated</span>
                 </th>
             </tr>
             </thead>

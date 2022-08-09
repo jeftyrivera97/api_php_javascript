@@ -1,7 +1,7 @@
 <template>
 
     <div class="overflow-hidden overflow-x-auto min-w-full align-middle sm:rounded-md">
-        <p >Historial de Compras en el mercado</p>
+        <p >Market Shopping History</p>
         <br>
         <table class="min-w-full border divide-y divide-gray-200">
             <thead>
@@ -10,13 +10,13 @@
                         <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Id</span>
                     </th>
                     <th class="px-6 py-3 bg-gray-50">
-                        <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Ingrediente</span>
+                        <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Ingredient</span>
                     </th>
                         <th class="px-6 py-3 bg-gray-50">
-                       <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Cantidad Comprada</span>
+                       <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Stock</span>
                     </th>
                   <th class="px-6 py-3 bg-gray-50">
-                        <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Fecha de Compra</span>
+                        <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Date</span>
                     </th>
                 </tr>
             </thead>

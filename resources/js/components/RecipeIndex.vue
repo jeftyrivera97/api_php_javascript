@@ -1,6 +1,6 @@
 <template>
     <div class="overflow-hidden overflow-x-auto min-w-full align-middle sm:rounded-md">
-        <p >Lista de Recetas en Restaurante</p>
+        <p >Recipes List</p>
         <br>
         <table class="min-w-full border divide-y divide-gray-200">
             <thead>
@@ -9,7 +9,7 @@
                         <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Id</span>
                     </th>
                     <th class="px-6 py-3 bg-gray-50">
-                        <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Platillo</span>
+                        <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Name</span>
                     </th>
                 </tr>
             </thead>

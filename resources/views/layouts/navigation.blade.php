@@ -13,19 +13,19 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('inicio')" :active="request()->routeIs('inicio')">
-                        {{ __('Inicio') }}
+                        {{ __('Home') }}
                     </x-nav-link>
                       <x-nav-link :href="route('ingredients-index')" :active="request()->routeIs('ingredients-index')">
-                        {{ __('Ingredientes') }}
+                        {{ __('Ingredients') }}
                     </x-nav-link>
                     <x-nav-link :href="route('recipes-index')" :active="request()->routeIs('recipes-index')">
-                        {{ __('Recetas') }}
+                        {{ __('Recipes') }}
                     </x-nav-link>
                     <x-nav-link :href="route('orders-index')" :active="request()->routeIs('orders-index')">
-                        {{ __('Ordenes') }}
+                        {{ __('Orders') }}
                     </x-nav-link>
                     <x-nav-link :href="route('mercados-index')" :active="request()->routeIs('mercados-index')">
-                        {{ __('Mercado') }}
+                        {{ __('Market') }}
                     </x-nav-link>
                 </div>
             </div>

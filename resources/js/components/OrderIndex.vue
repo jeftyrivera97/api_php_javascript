@@ -1,7 +1,7 @@
 <template>
 
     <div class="overflow-hidden overflow-x-auto min-w-full align-middle sm:rounded-md">
-        <p >Lista de Ordenes Generadas</p>
+        <p >Orders History</p>
         <br>
         <table class="min-w-full border divide-y divide-gray-200">
             <thead>
@@ -10,16 +10,16 @@
                         <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Id</span>
                     </th>
                      <th class="px-6 py-3 bg-gray-50">
-                        <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Receta</span>
+                        <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Recipe</span>
                     </th>
                          <th class="px-6 py-3 bg-gray-50">
-                       <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Estado</span>
+                       <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Status</span>
                     </th>
                      <th class="px-6 py-3 bg-gray-50">
-                        <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Creacion</span>
+                        <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Created On</span>
                     </th>
                     <th class="px-6 py-3 bg-gray-50">
-                       <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Ultima Actualizacion</span>
+                       <span class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Last Updated</span>
                     </th>
                 </tr>
                 </thead>

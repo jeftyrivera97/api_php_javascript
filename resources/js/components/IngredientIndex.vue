@@ -1,7 +1,7 @@
 <template>
 
     <div class="overflow-hidden overflow-x-auto min-w-full align-middle sm:rounded-md">
-            <p >Lista de Ingredientes</p>
+            <p >Ingredients Lists</p>
             <br>
         <table class="min-w-full border divide-y divide-gray-200">
             <thead>
@@ -10,10 +10,10 @@
                         <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Id</span>
                     </th>
                         <th class="px-6 py-3 bg-gray-50">
-                        <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Nombre</span>
+                        <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Name</span>
                     </th>
                             <th class="px-6 py-3 bg-gray-50">
-                        <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Cantidad Dsiponible</span>
+                        <span class="text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Stock</span>
                     </th>
                 </tr>
                 </thead>
